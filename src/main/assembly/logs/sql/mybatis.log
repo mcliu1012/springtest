@@ -1,0 +1,10 @@
+2016-04-27 18:44:52.464 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2016-04-27 18:44:52.472 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239e24bb]
+2016-04-27 18:44:52.526 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.transaction.SpringManagedTransaction - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@5ea5d8e9] will be managed by Spring
+2016-04-27 18:44:52.531 [http-nio-8080-exec-3] DEBUG com.mcliu.springtest.web.dao.SysUserMapper.selectByInfo - ==>  Preparing: select id, username, password from sys_user where 1 = 1 and username = ? 
+2016-04-27 18:44:52.557 [http-nio-8080-exec-3] DEBUG com.mcliu.springtest.web.dao.SysUserMapper.selectByInfo - ==> Parameters: admin(String)
+2016-04-27 18:44:52.578 [http-nio-8080-exec-3] DEBUG com.mcliu.springtest.web.dao.SysUserMapper.selectByInfo - <==      Total: 1
+2016-04-27 18:44:52.586 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239e24bb]
+2016-04-27 18:44:52.586 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239e24bb]
+2016-04-27 18:44:52.586 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239e24bb]
+2016-04-27 18:44:52.586 [http-nio-8080-exec-3] DEBUG org.mybatis.spring.SqlSessionUtils - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@239e24bb]
